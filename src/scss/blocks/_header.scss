@@ -1,0 +1,33 @@
+header {
+	padding-top: 13px;
+	.logo {
+		text-align: center;
+	}
+	.header-menu {
+		display: flex;
+		align-items: center;
+		ul {
+			list-style-type: none;
+			li {
+				display: inline-block;
+				background: url("../img/circle.png") no-repeat left center;
+				background-size: 9px;
+				padding-left: 20px;
+				font-family: $open-font;
+				font-size: 18px;
+				color: #1b1b1b;
+				font-weight: 600;
+				margin-left: 40px;
+				&:first-child {
+					margin-left: 0;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+	.menu-btn {
+		border: none;
+		outline: none;
+		display: none;
+	}
+}
