@@ -21,15 +21,23 @@
 	.banner .old-price p, .banner .new-price p {
 		font-size: 15px;
 	}
-	.banner .time {
+	.banner .timer-element {
 		width: 79px;
 		padding: 13px 0;
 	}
-	.banner .time p:first-child {
+	.banner .timer-element span {
 		font-size: 26px;
 	}
-	.banner .time p {
-		font-size: 12px;
+	.banner .timer-element #timer-text-2f3c04bf9684bc0ba46883b86395ffc2-days,
+	.banner .timer-element #timer-text-2f3c04bf9684bc0ba46883b86395ffc2-hours,
+	.banner .timer-element #timer-text-2f3c04bf9684bc0ba46883b86395ffc2-minutes,
+	.banner .timer-element #timer-text-2f3c04bf9684bc0ba46883b86395ffc20-days,
+	.banner .timer-element #timer-text-2f3c04bf9684bc0ba46883b86395ffc20-hours,
+	.banner .timer-element #timer-text-2f3c04bf9684bc0ba46883b86395ffc20-minutes,
+	.banner .timer-element #timer-text-2f3c04bf9684bc0ba46883b86395ffc200-days,
+	.banner .timer-element #timer-text-2f3c04bf9684bc0ba46883b86395ffc200-hours,
+	.banner .timer-element #timer-text-2f3c04bf9684bc0ba46883b86395ffc200-minutes {
+		font-size: 12px!important;
 	}
 	.banner .old-price p:last-child {
 		margin-left: 14px;
@@ -92,7 +100,7 @@
 	.banner .old-price p, .banner .new-price p {
 		font-size: 18px;
 	}
-	.banner .time {
+	.banner .timer-element {
 		width: 100px;
 		padding: 23px 0;
 	}
@@ -157,7 +165,7 @@
 		justify-content: flex-end;
 		.navbar-collapse {
 			position: absolute;
-			top: 100%;
+			top: 85%;
 			right: 0;
 			width: 160px;
 			z-index: 5;
@@ -267,6 +275,12 @@
 	.banner .new-price .arrow {
 		left: 317px;
 	}
+	.section-3 {
+		padding: 70px 0 50px 0;
+	}
+	.section-4 {
+		padding: 50px 0 104px 0;
+	}
 }
 @media screen and (max-width: 507px) {
 	.section-1 .banner .new-price .new-price_text p:last-child {
@@ -333,5 +347,49 @@
 	}
 	.section-1 .header-title h1:after {
 		display: none;
+	}
+}
+@media screen and (max-width: 386px) {
+	.banner .banner_info {
+		padding: 0 15px;
+	}
+	.banner .old-price p, .banner .new-price p {
+		font-size: 16px;
+	}
+	.banner .old-price, .banner .new-price {
+		padding-left: 15px;
+	}
+}
+@media screen and (max-width: 375px) {
+	h1 {
+		font-size: 31px;
+	}
+	.section-1 .header-title .header-title_list .item p {
+		font-size: 16px;
+	}
+	.section-1 .banner .new-price .new-price_text p:last-child {
+		margin-left: 19px;
+	}
+	.section-1 .banner .old-price p:last-child {
+		margin-left: 30px;
+	}
+	.banner .new-price .new-price_text p:last-child {
+		margin-left: 19px;
+	}
+	.banner .old-price p:last-child {
+		margin-left: 23px;
+	}
+	.banner .timer-element {
+		width: 85px;
+		padding: 15px 0;
+	}
+	footer .slick-next {
+		right: 5px;
+	}
+	footer .slick-prev {
+		left: 5px;
+	}
+	footer .slider {
+		margin-bottom: 40px;
 	}
 }

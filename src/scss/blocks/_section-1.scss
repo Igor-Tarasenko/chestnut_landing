@@ -160,6 +160,41 @@
 			}
 		}
 	}
+	#timer2f3c04bf9684bc0ba46883b86395ffc2,
+	#timer2f3c04bf9684bc0ba46883b86395ffc20,
+	#timer2f3c04bf9684bc0ba46883b86395ffc200 {
+		height: auto!important;
+	}
+	.timer-element {
+		background: url("../img/elips.png") no-repeat center;
+		background-size: contain;
+		width: 100px;
+		padding: 24px 0;
+		span {
+			font-family: $mont-font!important;
+			font-size: 36px;
+			line-height: 36px!important;
+			color: #f74156;
+			font-weight: 700;
+			text-align: center;
+			text-transform: none;
+			display: block!important;
+		}
+		#timer-text-2f3c04bf9684bc0ba46883b86395ffc2-days,
+		#timer-text-2f3c04bf9684bc0ba46883b86395ffc2-hours,
+		#timer-text-2f3c04bf9684bc0ba46883b86395ffc2-minutes,
+		#timer-text-2f3c04bf9684bc0ba46883b86395ffc20-days,
+		#timer-text-2f3c04bf9684bc0ba46883b86395ffc20-hours,
+		#timer-text-2f3c04bf9684bc0ba46883b86395ffc20-minutes,
+		#timer-text-2f3c04bf9684bc0ba46883b86395ffc200-days,
+		#timer-text-2f3c04bf9684bc0ba46883b86395ffc200-hours,
+		#timer-text-2f3c04bf9684bc0ba46883b86395ffc200-minutes{
+			font-weight: 500!important;
+			font-size: 16px!important;
+			color: #1b1b1b!important;
+			line-height: 16px!important;
+		}
+	}
 	.banner_info {
 		padding: 0;
 	}
